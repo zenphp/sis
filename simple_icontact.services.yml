@@ -1,0 +1,12 @@
+parameters:
+  simple_icontact.use_key_value_cache: true
+
+services:
+  simple_icontact.lists:
+    class: Drupal\simple_icontact\Service\SimpleIContactLists
+    arguments:
+      - '@config.factory'
+  simple_icontact.subscriber:
+    class: Drupal\simple_icontact\Service\SimpleIcontactSubscriber
+    arguments:
+      - '@config.factory'

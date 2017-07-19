@@ -1,0 +1,6 @@
+simple_icontact.config:
+  title: 'Simple IContact Configuration'
+  description: 'Configuration settings for Simple IContact'
+  parent: system.admin_config_services
+  route_name: simple_icontact.admin
+  weight: 100

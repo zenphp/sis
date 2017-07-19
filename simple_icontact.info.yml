@@ -1,0 +1,5 @@
+name: Simple iContact Signup
+description: A Simple Integration with iContact mailing list manager to facilitate signups
+package: Other
+type: module
+core: 8.x

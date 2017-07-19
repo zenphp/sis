@@ -1,0 +1,23 @@
+simple_icontact.admin:
+  path: '/admin/config/services/simple-icontact'
+  defaults:
+    _title: 'Configure Simple iContact'
+    _form: '\Drupal\simple_icontact\Form\SimpleIcontactConfigForm'
+  requirements:
+    _permission: 'administer site configuration'
+
+simple_icontact.admin-lists:
+  path: '/admin/config/services/simple-icontact/lists'
+  defaults:
+    _title: 'Select Lists'
+    _form: '\Drupal\simple_icontact\Form\SimpleIcontactListForm'
+  requirements:
+    _permission: 'administer site configuration'
+
+simple_icontact.subscribe:
+  path: '/subscribe'
+  defaults:
+    _title: 'Subscribe to our mailings'
+    _form: '\Drupal\simple_icontact\Form\SubscribeForm'
+  requirements:
+    _permission: 'access content'

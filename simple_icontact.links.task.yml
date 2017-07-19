@@ -1,0 +1,8 @@
+simple_icontact.config:
+  title: 'Configuration'
+  route_name: simple_icontact.admin
+  base_route: simple_icontact.admin
+simple_icontact.config-lists:
+  title: 'List Configuration'
+  route_name: simple_icontact.admin-lists
+  base_route: simple_icontact.admin
